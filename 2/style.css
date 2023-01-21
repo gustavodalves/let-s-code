@@ -106,9 +106,23 @@ p {
 
     background-color: transparent;
 
+    transition: all .18s linear;
+
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b498fa;
 }
 
 .product-details .btn {
     margin-top: 20px;
+}
+
+@media (max-width: 800px)
+{
+  main
+   {
+    flex-direction: column
+   }
 }
