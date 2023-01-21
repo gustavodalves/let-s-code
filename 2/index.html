@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="animated">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <title>Chalenge 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main id="#app">
+        <div class="product-image">
+            <button onclick="toggle()" id="btn-360">
+                <img src="./assets/360.svg" alt="Clique no botão para animar o sofá">
+            </button>
+
+            <button onclick="toggle()" id="btn-close">
+                <img src="./assets/close.svg" alt="Clique no botão para desanimar o sofá">
+            </button>
+
+            <img src="./assets/sofa.png" alt="Sofa" id="static">
+            <img src="./assets/sofa.gif" alt="" id="animated">
+        </div>
+
+        <div class="product-details">
+            <h4> CÓDIGO: 42404 </h4>
+            <h1> Sofá Margot II - Rosé </h1>
+            <p class="price">
+                R$ 4.000
+            </p>
+
+            <button class="btn"> ADICIONAR À CESTA </button>
+        </div>
+    </main>
+</body>
+
+<script src="./script.js"></script>
+</html>

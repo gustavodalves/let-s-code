@@ -1,0 +1,114 @@
+:root {
+    --bg-color: #D9CDF7;
+    --text-color: #271A45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialised;
+}
+
+html.animated button#btn-360,
+html.animated img#static {
+    display: none;
+}
+
+html.animated button#btn-close,
+html.animated img#animated {
+    display: initial;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body * {
+    color: var(--text-color);
+    font-family: "Lato";
+}
+
+h1 {
+    font-family: "Crimsom Pro"
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 63px;
+    align-items: center;
+}
+
+button {
+    cursor: pointer
+}
+
+#btn-close,
+#animated {
+    display: none;
+}
+
+.product-image {
+    position: relative
+}
+
+.product-image button {
+    position: absolute;
+    right: 0px;
+
+    background-color: transparent;
+    border: 0;
+}
+
+.product-image > img {
+    width: 449px;
+    height: 222px;
+    object-fit: cover;
+}
+
+h1,
+h4 {
+    line-height: 100%;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+h1 {
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    font-size: 32px;
+
+    margin-top: 12px;
+}
+
+p {
+    margin-top: 12px;
+    opacity: .67;
+}
+
+.btn {
+    font-size: 12px;
+    line-height: 16px;
+
+    padding: 8px 16px;
+    border: .5px solid var(--text-color);
+    border-radius: 999px;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.product-details .btn {
+    margin-top: 20px;
+}
